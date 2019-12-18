@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+     "allowSyntheticDefaultImports": false,
+     "baseUrl": ".",
+     "outDir": "./dist/out-tsc",
+     "declaration": false,
+     "downlevelIteration": true,
+     "module": "esnext",
+     "moduleResolution": "node",
+     "allowJs": false,                       // Disables JavaScript files to be compiled again
+     "emitDecoratorMetadata": true,          // Allows Angular 8 @Component, etc.
+     "experimentalDecorators": true,         // Allows Angular 8 @Component, etc.
+     "sourceMap": true,                      // Create a map so code is visible in debugger
+     "noImplicitAny": true,                  // Must specifiy a type, even 'any'
+     "suppressImplicitAnyIndexErrors": true, // Any type is Ok for indexing (e.g. arrays)
+     "importHelpers": true,
+     "types": [
+      "node"
+     ],
+     "target": "es2015",
+     "lib": [
+       "es2015",
+       "dom"
+     ]
+   },
+   "compileOnSave": false,
+   "buildOnSave": false,
+   "angularCompilerOptions": {
+     "fullTemplateTypeCheck": true,
+     "strictInjectionParameters": true,
+     "skipTemplateCodegen": true,
+     "annotateForClosureCompiler": true,
+     "trace": true
+   }
+ }
